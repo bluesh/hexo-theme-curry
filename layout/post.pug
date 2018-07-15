@@ -8,6 +8,8 @@ block content
       .content!= page.content
       if page.tags
         .tags!= list_tags(page.tags, { show_count: false, class: 'tag', style: false, separator: '' })
+          if theme.leancloud_visitors.enable
+            span(id=url_for(page.path), data-title=page.title).tag-link.leancloud_visitors
 
   .container
     ul.nav

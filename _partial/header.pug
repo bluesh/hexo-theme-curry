@@ -10,8 +10,11 @@ header.container#header
 
     .header-right
       ul.navigation
-        each link, text in theme.menu
-          li
-            a(href=link)=text
+        li
+          a.coffee 鼓励
+        //- each link, text in theme.menu
+        //-   li
+        //-     a(href=link, target="_blank")=text
             
     include ./aboutme.pug
+    include ./coffee.pug

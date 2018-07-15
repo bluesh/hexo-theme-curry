@@ -1,7 +1,17 @@
 avatar-size = 4rem
 
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: color-background;
+  z-index: 1;
+  height 4rem + 3 * gutter-size
+}
+
 .header {
-  padding: 2 * gutter-size 0
+  padding: 2 * gutter-size 0 gutter-size 0
   display: flex
   justify-content: space-between
   align-items: flex-end
@@ -48,7 +58,7 @@ avatar-size = 4rem
 
   li {
     float left
-    margin-left 2rem
+    margin-left 0.5rem
 
     a {
       color color-grey

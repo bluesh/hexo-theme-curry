@@ -1,6 +1,6 @@
 @import "nib"
-@import "./_variables"
-@import "./_extend"
+@import "_variables"
+@import "_extend"
 
 global-reset()
 
@@ -13,6 +13,7 @@ body
   font-family font-sans
   -webkit-font-smoothing antialiased
   line-height line-height
+  padding-top 4rem + 3 * gutter-size
 
 a
   position relative
@@ -76,6 +77,7 @@ a
 @import "_partial/header"
 @import "_partial/footer"
 @import "_partial/aboutme"
+@import "_partial/coffee"
 @import "_partial/article"
 @import "_partial/archive"
 @import "_partial/highlight"

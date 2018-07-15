@@ -1,22 +1,21 @@
 # Header
 menu:
-  归档: /archives
+  # 悄悄话: http://bluesh.me
 rss: /atom.xml
-title: GARY.SHEN
+# title: GARY.SHEN
 
-author: GARY.SHEN
-aboutme: Halo~
+author: ALEVEN.SH
+aboutme: So what~
 
 # Content
-excerpt_link: 全文...
-fancybox: true
+excerpt_link: 阅读全文
+fancybox: false
 date_format: 'YYYY年MM月DD日'
 
 socials:
-  github: "https://github.com/gary-Shen"
-  email: "guanlinshen@126.com"
-  wechat: "Grinson"
-
+  github: "https://github.com/bluesh"
+  email: "coffee.xuy@gmail.com"
+  twitter: "https://twitter.com/Bluesh0"
 
 
 # Sidebar
@@ -40,13 +39,13 @@ highlight_theme: atom light
 archive_type: 'monthly'
 show_count: false
 
-disqus_shortname:
+disqus_shortname: coffeexu
 
 # Miscellaneous
-google_analytics: 'UA-61220413-1'
+google_analytics: 'UA-97572000-1'
 gauges_analytics:
-favicon: /images/avatar.png
-avatar: "/images/avatar.png"
+favicon: /blog/images/avatar.jpg
+avatar: "/blog/images/avatar.jpg"
 twitter:
 google_plus:
 fb_admins:

@@ -57,6 +57,21 @@
     }
   });
 
+  // Coffee
+  var $coffeeMask = $('.coffee-mask');
+  $('.coffee').on('click', function () {
+    ga('send', 'event', 'Button', 'getCoffee');
+    if (!$coffeeMask.hasClass('open')) {
+      $coffeeMask.addClass('open');
+    }
+  });
+
+  $coffeeMask.on('click', function (e) {
+    if (e.target.classList.contains('coffee-mask')) {
+      $coffeeMask.removeClass('open');
+    }
+  });
+
   // Back to top
   var $backToTop = $('#backToTop');
   $(document).on('scroll', function () {

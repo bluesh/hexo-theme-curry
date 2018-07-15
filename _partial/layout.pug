@@ -11,7 +11,7 @@ html
     title= title ? title : theme.title
     if theme.favicon
       link(rel="shortcut icon", href=theme.favicon, type="image/x-icon")
-    link(href="/styles/site.css", rel="stylesheet")
+    link(href="/blog/styles/site.css", rel="stylesheet")
 
     block css
 
@@ -34,5 +34,6 @@ html
     include ./footer.pug
 
     include ./post_footer.pug
+    include ./leancloud_visitors.pug
     include ./google-analytics.pug
     block js
