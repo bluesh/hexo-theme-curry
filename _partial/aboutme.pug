@@ -11,7 +11,9 @@
           -var isLink = ['https', 'http', 'www'].some(function (prefix) {
           -  return item.indexOf(prefix) > -1;
           -});
-          -if (isLink)
+          -if (name==='email')
+            a(href=url_for("mailto:"+item), target="_blank", title=item)= item
+          -else if (isLink)
             a(href=url_for(item), target="_blank", title=item)= item
           -else
             span= item
