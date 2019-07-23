@@ -6,6 +6,9 @@ block content
       .title= page.title
       .date 写于#{moment(page.date).format(theme.date_format)}
       .content!= page.content
+      
+      include ../_partial/footer-coffee.pug
+      
       if page.tags
         .tags!= list_tags(page.tags, { show_count: false, class: 'tag', style: false, separator: '' })
           if theme.leancloud_visitors.enable

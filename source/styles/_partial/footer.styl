@@ -8,3 +8,31 @@ footer
 
 .rights
   padding gutter-size 0
+
+.coffee-footer
+  .coffee-wrap
+    display flex
+    flex-direction column
+    justify-content center
+    align-items center
+    width 38rem
+    margin 10px auto
+    padding gutter-size * 2 0
+    box-sizing border-box
+
+    @media mq-mobile
+      width 100%
+
+  .getcoffee
+    text-align center
+    
+    span 
+      width 50%
+      box-sizing border-box;
+      display inline-block
+      padding 0 2rem
+      @media mq-mobile
+        padding 0 1rem
+
+    img
+      max-width 100%
